@@ -2,7 +2,7 @@
 # ERD dan Implementasi Database Ojek Online
 
 ## ERD
-(Deskripsi singkat ERD; diagram not rendered here)
+ERD (Entity Relationship Diagram) sistem Ojek Online ini menggambarkan hubungan antara beberapa entitas utama: admin, customer, driver, serta ride (perjalanan). Setiap customer dapat melakukan banyak pemesanan perjalanan, dan setiap perjalanan akan ditangani oleh satu driver. Admin berperan sebagai pengelola sistem namun tidak terhubung langsung ke transaksi perjalanan. Struktur hubungan ini menunjukkan alur data utama mulai dari pengguna yang memesan, driver yang menjalankan perjalanan, hingga pencatatan detail transaksi oleh sistem.
 
 ## Struktur Tabel
 ```sql
